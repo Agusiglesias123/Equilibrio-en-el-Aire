@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300;400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Alkalami&family=Indie+Flower&family=Lobster&family=Merriweather&family=Peralta&family=Roboto:wght@300&family=Shadows+Into+Light&display=swap');
+
+// 
+//font-family: 'Alkalami', serif;
+//font-family: 'Indie Flower', cursive;
+//font-family: 'Lobster', cursive;
+//font-family: 'Merriweather', serif;
+//font-family: 'Peralta', cursive;
+//ont-family: 'Roboto', sans-serif;
+//font-family: 'Shadows Into Light', cursive;//
+//
+
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ul,
+li,
+button,
+a,
+i,
+*
+{
+    box-sizing: border-box;
+   margin: 0;
+   padding: 0;
+   list-style: none;
+   border: 0;
+   -webkit-tap-highlight-color: transparent;
+   text-decoration: none;
+   color: inherit;
+   font-family: 'Alkalami', serif;
+   
+
+   &:focus {
+       outline: 0;
+   }
+}
+
+body{
+    background-color: #ffffff;
+background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='4' height='4' viewBox='0 0 4 4'%3E%3Cpath fill='%23e7c6b9' fill-opacity='0.56' d='M1 3h1v1H1V3zm2-2h1v1H3V1z'%3E%3C/path%3E%3C/svg%3E");
+}
+
+
+$bg-01: #e7c6b9;
+$bg-02: #cd7c7b;
+$bg-03: #4ba2bf;
+$bg-04: #c9cfcc;
+$bg-05: #c78da5;
+$bg-06: #6f6d66;
+$bg-07: #bf8b71;
+$bg-08: #756768;
+
+@mixin lg {
+    @media screen and (max-width: 1240px) {
+        @content;
+    }
+ }
+ 
+ @mixin md {
+    @media screen and (max-width: 1023px) {
+        @content;
+    }
+ }
+ 
+ @mixin sm {
+    @media screen and (max-width: 799px) {
+        @content;
+    }
+ }
+  @mixin smm {
+    @media screen and (min-width: 420px) {
+        @content;
+    }
+ }
+ 
+ @mixin xs {
+    @media screen and (max-width: 639px) {
+        @content;
+    }
+ }
+ 
+ @mixin xxs {
+    @media screen and (max-width: 380px) {
+        @content;
+    }
+ }
