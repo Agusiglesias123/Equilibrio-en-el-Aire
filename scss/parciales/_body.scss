@@ -1,6 +1,6 @@
 //hero //
 .fond-hero{
-    background-image: url(/img/pexels-yan-krukov-8613362.jpg);
+    background-image: url("../img/pexels-yan-krukov-8613362.jpg");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -8,7 +8,7 @@
     padding-bottom: 4rem;
     border-top: 4px solid #cd7c7b;
     @include xs {
-        background-image: url(/img/vert.jpg);
+        background-image: url("../img/vert.jpg");
       }
 }
 // sobremi //@at-root
@@ -36,15 +36,14 @@
 //card //@at-root
 
 .card1{
-  background-image: url(/img/card1.jpg
-  );
+  background-image: url("../img/card1.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
   width: 100%;
 }
 .card2{
-  background-image: url(/img/card2.jpg
+  background-image: url("../img/card2.jpg"
   );
   background-position: center;
   background-repeat: no-repeat;
@@ -52,7 +51,7 @@
   width: 100%;
 }
 .card3{
-  background-image: url(/img/card3.jpg);
+  background-image: url("../img/card3.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;

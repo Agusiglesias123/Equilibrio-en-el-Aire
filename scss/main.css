@@ -178,7 +178,7 @@ body {
 }
 
 .fond-hero {
-  background-image: url(/img/pexels-yan-krukov-8613362.jpg);
+  background-image: url("../img/pexels-yan-krukov-8613362.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -189,7 +189,7 @@ body {
 
 @media screen and (max-width: 639px) {
   .fond-hero {
-    background-image: url(/img/vert.jpg);
+    background-image: url("../img/vert.jpg");
   }
 }
 
@@ -226,7 +226,7 @@ body {
 }
 
 .card1 {
-  background-image: url(/img/card1.jpg);
+  background-image: url("../img/card1.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -234,7 +234,7 @@ body {
 }
 
 .card2 {
-  background-image: url(/img/card2.jpg);
+  background-image: url("../img/card2.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -242,7 +242,7 @@ body {
 }
 
 .card3 {
-  background-image: url(/img/card3.jpg);
+  background-image: url("../img/card3.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
